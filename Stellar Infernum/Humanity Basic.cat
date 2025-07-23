@@ -1,0 +1,2296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="ba52-97ad-6e9a-fa4b" name="Humanity Basic" gameSystemId="sys-74a6-c7c2-cb22-1ca2" gameSystemRevision="2" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Jakil Infantry" hidden="false" id="040a-44ae-8a8f-3343">
+      <profiles>
+        <profile name="Every Man and Woman" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b0fc-b397-c791-7a7f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can ignore the Unit Cap for this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="92ed-bc3b-87a1-6546" primary="true" name="Infantry"/>
+        <categoryLink targetId="bfa3-7219-3cdb-f6f1" id="3ba5-3845-d6f3-c8f3" primary="false" name="Unit"/>
+        <categoryLink targetId="ede8-9fd6-1b60-590f" id="b78d-10dd-c5b3-088a" primary="false" name="Humanity"/>
+        <categoryLink targetId="ba86-344a-2476-ca35" id="356d-e15b-3af8-bd74" primary="false" name="Jakil"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Jakil Sargent" hidden="false" id="8db5-3321-92ec-2622">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Officers Sword" hidden="false" id="6fb8-5c96-52c5-88a5">
+              <profiles>
+                <profile name="Officers Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="cc1f-8542-a1dd-f993">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0157-c699-dc10-b4af"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a288-f993-df5b-de01"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Jaskerin Pistol" hidden="false" id="9a48-34f1-a22e-2e11">
+              <profiles>
+                <profile name="Jaskerin Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="08cd-d191-d967-55e2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="09db-7d80-eb56-cc3f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd63-177e-ceef-7e15"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="AutoRifle" hidden="false" id="effa-619b-4452-3318">
+              <profiles>
+                <profile name="AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8d4d-e51a-994d-6b1e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b2eb-7072-2ddb-7174"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b04a-3d17-2f2c-75d1"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7544-b796-98fb-3b09"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0cbc-0d3a-71cc-16bb"/>
+          </constraints>
+          <profiles>
+            <profile name="Jakil Infantry Sargent" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7fba-3ad5-72a3-2ea4">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="c9f9-68da-aaa8-0023" id="c5df-a382-38b8-5866" primary="false" name="Infantry"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Jakil Infantry" hidden="false" id="86ff-922d-01fa-0d1a">
+          <constraints>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="10bf-d8d9-d818-cc99"/>
+            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="db60-1ec2-6cb2-4664"/>
+          </constraints>
+          <profiles>
+            <profile name="Jakil Soldier" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="69eb-943c-d36f-d4c1">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">9+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="AutoRifle" hidden="false" id="5661-724c-e82f-efbc">
+              <profiles>
+                <profile name="AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6501-7d4c-68a6-f469">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b807-fa87-68c8-f153"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48bf-c265-82f2-c2a6"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="f49c-eea3-b9c0-6778">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="fb08-fee8-3fc8-7723">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a0ed-c2bb-edea-99b7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ab6-4c34-fce0-1775"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="60"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Commander" hidden="false" id="a287-4430-a70e-283c">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Commanders Pistol" hidden="false" id="271c-6131-cbe2-9b0a">
+          <profiles>
+            <profile name="Commanders Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2335-2bfb-f258-9a5f">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e25-a88e-b9de-95cd"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6ce-11b1-f0e7-85ad"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Officers Sword" hidden="false" id="9499-b9d6-2c03-eb64">
+          <profiles>
+            <profile name="Officers Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="4324-b4d6-ad53-62bf">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0110-8e3f-8f7e-e30b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="328b-d5b9-c23c-b53c"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Local Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cfa4-919a-4b80-1053">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whilst this one or more Units with this ability are on the battlefield, add +1 to your Initiative Roll</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jaskerin Commander" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c4c7-dc0d-5973-7467">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+            <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+            <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+            <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+            <characteristic name="W" typeId="bef7-942a-1a23-59f8">6+</characteristic>
+            <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Forged Through War" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9950-e926-c9e7-53db">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model&apos;s unit can Shoot as if it had made a Shoot action after it falls back from Close Combat Range.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a788-2dd3-0fa0-2bbd">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This Model can attach to the following Units:
+-Jakil Infantry
+-Jakil Rangers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="101c-96b7-404e-0f8b" id="8b04-4c06-fea4-b5e1" primary="false" name="Leader"/>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="64f4-1296-7b26-ba7d" primary="false" name="Infantry"/>
+        <categoryLink targetId="bfa3-7219-3cdb-f6f1" id="5d77-43f4-489a-758d" primary="false" name="Unit"/>
+        <categoryLink targetId="0558-6d8b-f5d1-cca3" id="2968-e198-9da3-f622" primary="true" name="Character"/>
+        <categoryLink targetId="ede8-9fd6-1b60-590f" id="fd01-9559-e433-3ce9" primary="false" name="Humanity"/>
+        <categoryLink targetId="ba86-344a-2476-ca35" id="bb5c-1ebd-3f22-3a4b" primary="false" name="Jakil"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Leader" id="aa15-718f-1f3e-afac" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="General" hidden="false" id="8f07-37bf-9825-c9f2" type="selectionEntry" targetId="daf6-3b79-75b1-6b0b">
+          <categoryLinks>
+            <categoryLink targetId="58f5-a263-2ca2-8342" id="e4e5-f5cc-574e-c341" primary="false" name="General"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="70"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Jakil Ranger" hidden="false" id="e8a3-345a-8bc4-2ca7">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Jakil Ranger" hidden="false" id="9a49-9433-b34b-75e7">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="52d2-4c5f-c6c2-174d">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2204-03a9-ce95-6053">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a23f-58e4-1d44-f6cf"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="399c-2c41-37ef-2bea"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Enhanced AutoRifle" hidden="false" id="ce23-70ac-a4ee-2846">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2ba3-085f-c1f2-aa11"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f5d-13cb-be08-cc2b"/>
+              </constraints>
+              <profiles>
+                <profile name="Enhanced AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="244b-ef47-121f-f401">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms Rapid Fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Jakil Ranger" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="16c8-2b11-2c25-4da4">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4c98-6956-b756-5eec"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="acc1-11e1-d3c3-1104"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="c9f9-68da-aaa8-0023" id="4841-7428-c270-502f" primary="false" name="Infantry"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Jakil Ranger Sargent" hidden="false" id="b5bf-944b-47b2-8126">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="1303-95c6-52d4-ecb3">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="0dc8-8b97-09c0-da5f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f7ea-f048-f510-316a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fd1-ccf3-918b-7a91"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Enhanced AutoRifle" hidden="false" id="02f5-8e3c-c356-d979">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9982-f500-e296-e31c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d5b-2be1-7a57-7dd5"/>
+              </constraints>
+              <profiles>
+                <profile name="Enhanced AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="41cd-d99a-9bed-a460">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms Rapid Fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Jakil Ranger Sargent" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0542-90f6-baf8-4326">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f3f-5e71-dc34-6cb1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6f0-b4d7-022f-8b0e"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="c9f9-68da-aaa8-0023" id="918c-83c4-c562-94bd" primary="false" name="Infantry"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Reactive Warfare" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="58eb-0718-a324-3cc4">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per Turn, this Unit may perform a Shoot action when an enemy unit declares a Move, Strafe, Advance or Assault action within 9&quot;.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="2ff5-0b41-776a-ed1e" primary="true" name="Infantry"/>
+        <categoryLink targetId="bfa3-7219-3cdb-f6f1" id="d21c-19c7-06be-84b9" primary="false" name="Unit"/>
+        <categoryLink targetId="ede8-9fd6-1b60-590f" id="92c5-a787-88b6-e13a" primary="false" name="Humanity"/>
+        <categoryLink targetId="ba86-344a-2476-ca35" id="b619-d409-bb87-217b" primary="false" name="Jakil"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="95"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Lieutenant" hidden="false" id="17e7-0ca5-9369-5d1c">
+      <categoryLinks>
+        <categoryLink targetId="101c-96b7-404e-0f8b" id="32ef-0769-c9de-bb12" primary="false" name="Leader"/>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="6c88-2147-aa55-0b34" primary="false" name="Infantry"/>
+        <categoryLink targetId="bfa3-7219-3cdb-f6f1" id="6709-3d6b-fd86-5f83" primary="false" name="Unit"/>
+        <categoryLink targetId="0558-6d8b-f5d1-cca3" id="df53-0521-72de-7b4b" primary="true" name="Character"/>
+        <categoryLink targetId="ede8-9fd6-1b60-590f" id="39e3-75a8-1627-269b" primary="false" name="Humanity"/>
+        <categoryLink targetId="ba86-344a-2476-ca35" id="7329-460a-b2dc-962e" primary="false" name="Jakil"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Jaskerin Lieutenant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="cf81-5b49-8e26-883c">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+            <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+            <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+            <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+            <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+            <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tactical Flexibility" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6647-0b7c-60c4-ecd8">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per Turn, at the end of the Action Stage, this Unit can activate again to make a Move or Shoot action.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8cc7-39ac-1d08-d285">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This Model can attach to the following Units:
+-Jakil Infantry
+-Jakil Elite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Officers Sword" hidden="false" id="5fd6-7276-7cb1-e7ce">
+          <profiles>
+            <profile name="Officers Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d0c9-a80b-92e6-48e8">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="65dc-c04e-b326-4264"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e6bc-86b5-f783-2621"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Jaskerin Pistol" hidden="false" id="a8fc-5162-e353-d64e">
+          <profiles>
+            <profile name="Jaskerin Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="93e6-dc8a-f4f3-0466">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8eca-b431-1752-d826"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e09-dfd0-88e8-a6f1"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Leader" id="006c-581f-ef3c-028f" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="General" hidden="false" id="f5f0-2c07-9708-6e14" type="selectionEntry" targetId="daf6-3b79-75b1-6b0b">
+          <categoryLinks>
+            <categoryLink name="General" hidden="false" id="42c1-aa32-a5b7-1d40" targetId="58f5-a263-2ca2-8342" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="50"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Light Transport" hidden="false" id="0c81-c104-5926-27c4">
+      <categoryLinks>
+        <categoryLink targetId="bfa3-7219-3cdb-f6f1" id="d0fc-d758-50d8-aa39" primary="false" name="Unit"/>
+        <categoryLink targetId="9bc4-6c0c-d4bf-16e5" id="269a-627f-e0b3-9e01" primary="false" name="Transport"/>
+        <categoryLink targetId="ede8-9fd6-1b60-590f" id="5bb5-a1a6-6d7c-0ed5" primary="false" name="Humanity"/>
+        <categoryLink targetId="ba86-344a-2476-ca35" id="4c28-5ca4-1267-d6b3" primary="false" name="Jakil"/>
+        <categoryLink targetId="cd4f-0287-31b9-8659" id="d453-b055-edb2-1467" primary="true" name="Vehicle"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Light Assault Cannon" hidden="false" id="f05f-bef9-b7b7-902c">
+          <profiles>
+            <profile name="Light Assault Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b1e1-6c90-7646-ca14">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43ea-6e2d-df8d-60da"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0555-5185-f4a9-f2a5"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Auxillary Light Machine Gun" hidden="false" id="ca0c-a91b-8c55-dbf9">
+          <profiles>
+            <profile name="Auxillary Light Machine Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d5cc-b19f-3304-bc7d">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8b7-cb2c-037b-ac70"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92e2-2e7c-ce28-b806"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured Bulk" hidden="false" id="ff85-165b-d84a-eb58">
+          <profiles>
+            <profile name="Armoured Bulk" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="bac6-5e32-d1ea-3ba9">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54c4-3584-ece6-16c5"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e52e-2d24-4ac4-a2d3"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Jakil Light Transport" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="665a-a287-fbb3-660e">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="A" typeId="450-a17e-9d5e-29da">8</characteristic>
+            <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/4+</characteristic>
+            <characteristic name="W" typeId="bef7-942a-1a23-59f8">9+</characteristic>
+            <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rapid Disembarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a15e-9f2b-1771-ab72">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After a unit disembarks from this transport, it may make an additional move of up to D6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jakil Light Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="cd19-b02a-1bb0-6bf6">
+          <characteristics>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This Model has a capacity of 11 Jakil INFANTRY models. It cannot transport BULWARK models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Firing Deck 5" id="216f-306e-139b-4f3d" hidden="false" page="17">
+          <description>Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with. Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="120"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Mortar Team" hidden="false" id="8f54-62b2-3d1e-4eeb">
+      <categoryLinks>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="94b4-9694-75ff-a2fa" primary="true" name="Infantry"/>
+        <categoryLink targetId="bfa3-7219-3cdb-f6f1" id="22cd-c506-8f91-41bf" primary="false" name="Unit"/>
+        <categoryLink targetId="ede8-9fd6-1b60-590f" id="41f4-f3a2-dbfe-2e91" primary="false" name="Humanity"/>
+        <categoryLink targetId="ba86-344a-2476-ca35" id="ef56-d444-20f0-5cc2" primary="false" name="Jakil"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Fire Designator" hidden="false" id="f418-c553-0484-665a">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="4374-e4ba-8550-737d">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="edd8-ad0e-4a00-0f59">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8bcb-b4fa-6aee-4dbd"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9ea-eb33-f06f-dd84"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="AutoRifle" hidden="false" id="9307-0052-d3b8-e299">
+              <profiles>
+                <profile name="AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6b7f-6c92-0cac-38ea">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c2a6-42cc-59f2-374e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d5a-da8c-883a-16ad"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e840-2c9a-1c7e-003f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85f8-55c4-77f1-67b8"/>
+          </constraints>
+          <profiles>
+            <profile name="Fire Designator" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b83c-39fb-8377-05fc">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">+6/+6</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">9+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Jakil Mortar Team" hidden="false" id="c5a3-98fd-7be9-7d45">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="1275-f3df-8cc9-10b2">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c194-12f8-43a7-aa7d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="290c-0109-a678-02a1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf5f-7b40-b6ed-0a2c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mortar Tube" hidden="false" id="4748-68bc-5927-ffe3">
+              <profiles>
+                <profile name="Mortar Tube" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4a24-7c35-95d8-6fd1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast 1, Indirect Fire</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80f1-cf38-c97f-6974"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b3d-bb77-0f16-2570"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="AutoRifle" hidden="false" id="b944-2054-cf00-b8a1">
+              <profiles>
+                <profile name="AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4930-88e3-7ac8-7913">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="64ef-f658-47e6-3c91"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f21-8372-061a-ace8"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Jakil Mortar Team" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="074a-21d1-e6eb-5660">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">+6/+6</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">9+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="158b-b7da-2648-7b51"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c60c-eb86-09cf-9aed"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Suppressive Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9fdb-acab-265a-322d">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After this unit has resolved all of its attacks, if a Unit was Hit by a Mortar Tube attack then it suffers -2 to its Movement Characteristic.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fire Designator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5f5c-4be2-9552-1cd5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whilst this Units Fire Designator is still on the battlefield, Mortar Tube weapons in this Unit can reroll failed Hit rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="75"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Forward Observer" hidden="false" id="954e-d680-0e04-aca3">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Officers Sword" hidden="false" id="e826-bca7-83ae-3eda">
+          <profiles>
+            <profile name="Officers Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="959c-f8fc-32e8-551d">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d64d-5f3c-d230-e088"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e352-9182-1411-b2c0"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Jaskerin Pistol" hidden="false" id="ec56-6129-448e-c3ba">
+          <profiles>
+            <profile name="Jaskerin Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6e7f-3948-b671-26e3">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5595-45b4-dac6-4ac5"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf26-60b5-84d1-e4af"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Jaskerin Lieutenant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7320-4c1d-6e24-3db6">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+            <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+            <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+            <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+            <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+            <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jakil Forward Observer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ac4-34c1-9042-e378">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a friendly Artillery unit makes a ranged attack against an visible enemy Unit, it can ignore the penalties to Indirect Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Lone Operative" id="f03b-b8d2-bb28-fb43" hidden="false" publicationId="48fc-15aa-b307-9443" page="19">
+          <description>Unless part of an Attached unit, this unit can only be selected as the target of a ranged attack if the attacking model is within 12&quot;.</description>
+        </rule>
+        <rule name="Infiltrators" id="d06f-c932-90eb-6501" hidden="false" publicationId="48fc-15aa-b307-9443" page="39">
+          <description>During deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9&quot; horizontally away from the enemy deployment zone and all enemy models.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="4936-6d87-4207-5a11" primary="false" name="Infantry"/>
+        <categoryLink targetId="0558-6d8b-f5d1-cca3" id="0b0d-bc67-3eb6-01c5" primary="true" name="Character"/>
+        <categoryLink targetId="ba86-344a-2476-ca35" id="5da6-2bcc-595a-f0b0" primary="false" name="Jakil"/>
+        <categoryLink targetId="ede8-9fd6-1b60-590f" id="f3f9-4658-142a-6ca1" primary="false" name="Humanity"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="60"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Light Armour" hidden="false" id="7c30-5974-af97-aa17">
+      <categoryLinks>
+        <categoryLink targetId="cd4f-0287-31b9-8659" id="ecb6-cfdf-e509-41ea" primary="true" name="Vehicle"/>
+        <categoryLink targetId="ede8-9fd6-1b60-590f" id="1851-8446-eb3d-bdef" primary="false" name="Humanity"/>
+        <categoryLink targetId="ba86-344a-2476-ca35" id="f7ba-e471-90db-108a" primary="false" name="Jakil"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Auxillary Light Machine Gun" hidden="false" id="0eb8-bee0-5c17-0c6e">
+          <profiles>
+            <profile name="Auxillary Light Machine Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="db13-3b96-cd03-4b08">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="72bd-b34d-3d2b-0cb0"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eef7-6850-8836-f43d"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Assault Cannon" hidden="false" id="7ff6-e2bf-73ae-1e38">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5c1-af51-bc5f-1e2f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="583f-9a72-959b-79da"/>
+          </constraints>
+          <profiles>
+            <profile name="Light Assault Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fe95-b748-1b38-ff7e">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured Bulk" hidden="false" id="be7a-ebda-0013-886f">
+          <profiles>
+            <profile name="Armoured Bulk" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="57b2-73a3-be05-e2f7">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e242-03a9-9bcc-0007"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d7c-90f3-e4a5-2660"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Jakil Light Armour" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ca7c-96fe-ab37-eeed">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="A" typeId="450-a17e-9d5e-29da">8</characteristic>
+            <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/6+</characteristic>
+            <characteristic name="W" typeId="bef7-942a-1a23-59f8">9+</characteristic>
+            <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="200"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Bulwarks" hidden="false" id="c80b-1f9a-ed3f-c645">
+      <categoryLinks>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="15ab-756b-235c-a88e" primary="true" name="Infantry"/>
+        <categoryLink targetId="ba86-344a-2476-ca35" id="ef9f-fb34-da68-9733" primary="false" name="Jakil"/>
+        <categoryLink targetId="ede8-9fd6-1b60-590f" id="1a26-e32f-d6e3-b97c" primary="false" name="Humanity"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Bulwark" hidden="false" id="aa8e-14a4-2c77-1d03">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stirrlink Heavy Gun" hidden="false" id="2c59-d826-1def-6c9c">
+              <profiles>
+                <profile name="Stirrlink Heavy Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0b08-e820-444e-a3a3">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f22-d524-e1f5-db69"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce0d-a664-b13f-b1cd"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="4de8-7485-3d0a-902e">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5295-e552-7437-bfe6">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="01df-43dc-aba5-a4d8"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad50-c6d0-7538-6142"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1b5a-ec35-152b-4a06"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="ad17-fe7e-c006-fd3d"/>
+          </constraints>
+          <profiles>
+            <profile name="Bulwark" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6a43-d740-a607-0acc">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">4</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Bulwark Sargent" hidden="false" id="e2f8-fe54-0ce7-fc34">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stirrlink Heavy Gun" hidden="false" id="ef21-696a-f409-c132">
+              <profiles>
+                <profile name="Stirrlink Heavy Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ca23-7d12-a7f7-ea0b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4dd3-abfb-4beb-bfa2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="513b-9db8-7cde-d38b"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="1cc0-0e87-672f-28b6">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="f257-f217-5abe-4ac8">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b8da-ddb7-3ea1-0dfb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4265-5ff9-baf2-dc35"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd3c-1013-8618-7589"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8339-06c7-af91-e378"/>
+          </constraints>
+          <profiles>
+            <profile name="Bulwark" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5790-8121-0372-d60d">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">4</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">6+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Face towards enemy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b333-7601-598c-1145">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per Turn just after an enemy Unit that has resolved its ranged attacks against this Unit. Roll a D8, on a 5+ this Unit can shoot as if it made a Shoot action, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="120"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Anti-Air" hidden="false" id="699c-7cdb-a6dc-b0c0">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Jakil Anti Air" hidden="false" id="8d04-1743-8c07-caa7">
+          <profiles>
+            <profile name="Jakil Anti Air" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c390-6b41-e804-3afd">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">6</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/7+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">6+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f92-ec56-88a3-28ee"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f75f-6f29-df62-bd42"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Anti-Air Missile" hidden="false" id="0080-ca9e-c54d-d3c1">
+          <profiles>
+            <profile name="Anti-Air Missile" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="88bb-f031-34b1-860f">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">N/A</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Aircraft</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="420e-733c-8dc9-155f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08c4-9ad3-c318-9bff"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured Bulk" hidden="false" id="ef2c-25f5-53c2-c148">
+          <profiles>
+            <profile name="Armoured Bulk" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="185e-9638-97d5-2e49">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d8b4-63fc-4b1f-4977"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84c9-a76c-0552-2e99"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Auxillary Light Machine Gun" hidden="false" id="1dc2-5340-8b78-4c72">
+          <profiles>
+            <profile name="Auxillary Light Machine Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5d7d-3417-858d-2003">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab4e-7aa7-9bad-b38d"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb5a-89dd-df55-6296"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab18-5f1b-2eef-6b5a"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b43-edb3-6b78-a281"/>
+      </constraints>
+      <profiles>
+        <profile name="Dedicated Anti-Air" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="babe-7a5d-bcff-2c33">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can never target a non Aircraft unit with its Anti-Air Missile. 
+
+
+When this model makes a ranged attack against an Aircraft unit, reroll hit rolls of 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="100"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cd4f-0287-31b9-8659" id="bcd1-1fac-a3e0-2812" primary="true" name="Vehicle"/>
+        <categoryLink targetId="ede8-9fd6-1b60-590f" id="35d8-dd0f-f5e7-f901" primary="false" name="Humanity"/>
+        <categoryLink targetId="ba86-344a-2476-ca35" id="5591-fe18-3113-7c65" primary="false" name="Jakil"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Detachment" id="0821-9613-eeef-0509" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Mass Mobilisation" hidden="false" id="5d24-9d3d-def9-d3e4">
+          <profiles>
+            <profile name="Send the next wave" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd5f-ed3f-3d36-10bc">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, the first time a friendly Jakil Infantry Unit is destroyed, add a new Jakil Infantry Unit to your Reinforcement Pool.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="c9f9-68da-aaa8-0023" shared="true" id="4e68-8306-ed53-69fe"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="0d81-175a-31ec-9ce7" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="09df-9d8f-a58e-389e" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="c708-30bf-1ea7-3e08" id="6d41-322e-5e27-615e" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Battle Size" hidden="false" id="c943-04eb-5bd8-7450" type="selectionEntry" targetId="564e-fbc6-5266-3ea4"/>
+    <entryLink import="true" name="Detachment" hidden="false" id="5eac-0ed8-a510-44c8" type="selectionEntryGroup" targetId="0821-9613-eeef-0509"/>
+  </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="unit" import="true" name="Bulwarks" hidden="false" id="4d06-2a0b-cd83-2934">
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="b0d3-44c5-2e41-110f" targetId="c9f9-68da-aaa8-0023" primary="true"/>
+        <categoryLink name="Jakil" hidden="false" id="3469-341a-5eaf-59ac" targetId="ba86-344a-2476-ca35" primary="false"/>
+        <categoryLink name="Humanity" hidden="false" id="8c63-41b0-bc3e-0547" targetId="ede8-9fd6-1b60-590f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Bulwark" hidden="false" id="ab1f-d4eb-63c0-7c99">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stirrlink Heavy Gun" hidden="false" id="3b77-2b43-a99d-0e4a">
+              <profiles>
+                <profile name="Stirrlink Heavy Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="56d4-41d7-ad1d-c1e0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fcfe-1a6d-56bf-74c9"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7b0-7a6f-1113-ca2c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="d306-e1e2-b2d1-82ff">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a215-c7ce-1e76-e301">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="77e4-a5c1-9d69-0408"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f6b-f116-1dc0-19da"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="297a-808c-6b4b-6638"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="77d2-f49d-973a-019b"/>
+          </constraints>
+          <profiles>
+            <profile name="Bulwark" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="46c7-8e0e-9f1a-a0e0">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">4</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Bulwark Sargent" hidden="false" id="a25d-3c37-054b-6f04">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stirrlink Heavy Gun" hidden="false" id="1b71-e8c6-ee82-ce4d">
+              <profiles>
+                <profile name="Stirrlink Heavy Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="89b7-53f9-c90b-02a6">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fcd6-1dd6-fe80-dfb1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82d6-a44c-4281-26b5"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="e354-a9f3-c1b8-c301">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d26d-a41e-a595-023b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="26d7-0b1c-304e-50fe"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2512-a3a1-6d6f-9cda"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18fa-bbbe-b3e7-f0ff"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d63f-0909-2356-edf9"/>
+          </constraints>
+          <profiles>
+            <profile name="Bulwark" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7627-ae9b-8a60-8cdc">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">4</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">6+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Face towards enemy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0090-3aa5-1b44-5bf1">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per Turn just after an enemy Unit that has resolved its ranged attacks against this Unit. Roll a D8, on a 5+ this Unit can shoot as if it made a Shoot action, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="120"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Forward Observer" hidden="false" id="292c-7dab-964d-94c2">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Officers Sword" hidden="false" id="41a5-3d91-1441-b8b6">
+          <profiles>
+            <profile name="Officers Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b426-3db5-b6a1-fa6c">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3333-2067-704f-4b6b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04b4-9fb3-125c-f2d0"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Jaskerin Pistol" hidden="false" id="46b9-77f3-ef0b-90d6">
+          <profiles>
+            <profile name="Jaskerin Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2527-d49c-6204-468b">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="acc8-cd23-7aa4-e391"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="451f-eed5-97be-693e"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Jaskerin Lieutenant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1c66-df73-e78b-908b">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+            <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+            <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+            <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+            <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+            <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jakil Forward Observer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa3b-eb3d-a419-637b">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a friendly Artillery unit makes a ranged attack against an visible enemy Unit, it can ignore the penalties to Indirect Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Lone Operative" id="172f-a22c-06e2-54e1" hidden="false" publicationId="48fc-15aa-b307-9443" page="19">
+          <description>Unless part of an Attached unit, this unit can only be selected as the target of a ranged attack if the attacking model is within 12&quot;.</description>
+        </rule>
+        <rule name="Infiltrators" id="a3f2-871b-15b6-6773" hidden="false" publicationId="48fc-15aa-b307-9443" page="39">
+          <description>During deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9&quot; horizontally away from the enemy deployment zone and all enemy models.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="4caf-58f3-3457-d7f8" targetId="c9f9-68da-aaa8-0023" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="95ef-51d1-fbf0-a2e6" targetId="0558-6d8b-f5d1-cca3" primary="true"/>
+        <categoryLink name="Jakil" hidden="false" id="0b4b-06fd-b406-1956" targetId="ba86-344a-2476-ca35" primary="false"/>
+        <categoryLink name="Humanity" hidden="false" id="1ff3-c211-91be-29cb" targetId="ede8-9fd6-1b60-590f" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="60"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Infantry" hidden="false" id="c3a4-fb6e-e03e-8671">
+      <profiles>
+        <profile name="Every Man and Woman" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2768-ff9f-1842-d4b0">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can ignore the Unit Cap for this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="1eed-5c98-2901-6aa8" targetId="c9f9-68da-aaa8-0023" primary="true"/>
+        <categoryLink name="Unit" hidden="false" id="109b-a7cc-bb43-f298" targetId="bfa3-7219-3cdb-f6f1" primary="false"/>
+        <categoryLink name="Humanity" hidden="false" id="5808-b489-7eb2-fe5e" targetId="ede8-9fd6-1b60-590f" primary="false"/>
+        <categoryLink name="Jakil" hidden="false" id="4a11-c297-a355-6587" targetId="ba86-344a-2476-ca35" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Jakil Sargent" hidden="false" id="54eb-6a35-072d-b904">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Officers Sword" hidden="false" id="c39e-606b-3424-a90c">
+              <profiles>
+                <profile name="Officers Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6566-d821-1198-ab86">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c871-3fb1-d3c5-610e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11ae-334b-9856-cd62"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Jaskerin Pistol" hidden="false" id="ce19-8ea9-29a4-a48e">
+              <profiles>
+                <profile name="Jaskerin Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="41e6-1311-7fe3-87a0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d0d8-83db-e33e-0e68"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cfb-5da5-50e0-0c7d"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="AutoRifle" hidden="false" id="ba0c-41eb-dd04-4a50">
+              <profiles>
+                <profile name="AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a8be-1db9-86d7-e8ff">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="50ff-a3bf-7986-b037"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3c6-321c-da21-0a84"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0fa5-2c60-ce76-9a3d"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2dc1-9604-f093-4916"/>
+          </constraints>
+          <profiles>
+            <profile name="Jakil Infantry Sargent" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ebd7-1679-25eb-8229">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Infantry" hidden="false" id="79fa-3f8b-52a4-011a" targetId="c9f9-68da-aaa8-0023" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Jakil Infantry" hidden="false" id="d8af-34a0-5901-20a6">
+          <constraints>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="aba1-e97d-32ef-8d30"/>
+            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="b76e-d780-a412-8d40"/>
+          </constraints>
+          <profiles>
+            <profile name="Jakil Soldier" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3593-714c-c5cf-4fed">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">9+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="AutoRifle" hidden="false" id="f2b6-3126-8197-00fa">
+              <profiles>
+                <profile name="AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cee7-4957-197b-7263">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="621a-d4f8-8a71-575e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ade0-a69b-a75e-ff3a"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="51d0-5fd6-442d-16a4">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d9a3-e916-2add-1dce">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b346-1848-6f1a-04d8"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4527-ba01-febd-fc6b"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="60"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Light Armour" hidden="false" id="b08f-612a-0f7e-02bc">
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="5f0c-6583-cce3-0099" targetId="cd4f-0287-31b9-8659" primary="true"/>
+        <categoryLink name="Humanity" hidden="false" id="1a20-864a-8f12-46b8" targetId="ede8-9fd6-1b60-590f" primary="false"/>
+        <categoryLink name="Jakil" hidden="false" id="8498-b36f-463c-be0a" targetId="ba86-344a-2476-ca35" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Auxillary Light Machine Gun" hidden="false" id="38bd-2938-dcde-cb49">
+          <profiles>
+            <profile name="Auxillary Light Machine Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8c42-a852-12b2-b4c6">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b3d-0afa-20fc-cd03"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="999e-3bb1-787e-bcd0"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Assault Cannon" hidden="false" id="bd53-1a2b-55cc-5c34">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="15ea-ee30-5fe4-a30c"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="994a-2073-7c8d-3b69"/>
+          </constraints>
+          <profiles>
+            <profile name="Light Assault Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="52da-3c2b-8917-ce24">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured Bulk" hidden="false" id="d00f-8e6a-21b0-d2e5">
+          <profiles>
+            <profile name="Armoured Bulk" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8208-6380-72ad-1d9b">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a962-07f5-6d05-204b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68ea-67c9-b023-bb16"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Jakil Light Armour" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="47e6-9143-de60-79a2">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="A" typeId="450-a17e-9d5e-29da">8</characteristic>
+            <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/6+</characteristic>
+            <characteristic name="W" typeId="bef7-942a-1a23-59f8">9+</characteristic>
+            <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="200"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Light Transport" hidden="false" id="938e-a6fd-a739-31a7">
+      <categoryLinks>
+        <categoryLink name="Unit" hidden="false" id="4038-90e0-23a5-ff9e" targetId="bfa3-7219-3cdb-f6f1" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="0892-b543-43a8-4ce4" targetId="9bc4-6c0c-d4bf-16e5" primary="false"/>
+        <categoryLink name="Humanity" hidden="false" id="a08c-0a9c-1b20-5165" targetId="ede8-9fd6-1b60-590f" primary="false"/>
+        <categoryLink name="Jakil" hidden="false" id="095a-eb2b-288c-5226" targetId="ba86-344a-2476-ca35" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="a4eb-8363-5018-9b74" targetId="cd4f-0287-31b9-8659" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Light Assault Cannon" hidden="false" id="8353-0d20-5d51-a5db">
+          <profiles>
+            <profile name="Light Assault Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="aeec-9756-716d-2c8f">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c99f-0dd4-3990-c265"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="083e-449f-1213-99d1"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Auxillary Light Machine Gun" hidden="false" id="1734-1aa0-0ac8-701d">
+          <profiles>
+            <profile name="Auxillary Light Machine Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="bb6d-003b-bc0c-d80a">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1af3-7dfb-294e-2aad"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f640-ac73-399f-4569"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured Bulk" hidden="false" id="208f-76f9-c8f3-f04d">
+          <profiles>
+            <profile name="Armoured Bulk" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="cb70-a95e-4663-1489">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1749-204c-49da-689d"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8cf-c662-71a1-35db"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Jakil Light Transport" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9f83-50ab-4e84-064c">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="A" typeId="450-a17e-9d5e-29da">8</characteristic>
+            <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/4+</characteristic>
+            <characteristic name="W" typeId="bef7-942a-1a23-59f8">9+</characteristic>
+            <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rapid Disembarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="797f-3bf9-74e0-da18">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After a unit disembarks from this transport, it may make an additional move of up to D6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jakil Light Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="df54-2501-78cf-244f">
+          <characteristics>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This Model has a capacity of 11 Jakil INFANTRY models. It cannot transport BULWARK models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Firing Deck 5" id="a8f7-4b5b-ca3f-ae31" hidden="false" page="17">
+          <description>Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with. Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="120"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Mortar Team" hidden="false" id="084a-4a63-cfa5-0243">
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="e02d-d886-acdf-3936" targetId="c9f9-68da-aaa8-0023" primary="true"/>
+        <categoryLink name="Unit" hidden="false" id="3c00-5b63-16ca-41cd" targetId="bfa3-7219-3cdb-f6f1" primary="false"/>
+        <categoryLink name="Humanity" hidden="false" id="90f8-2c12-449a-cc73" targetId="ede8-9fd6-1b60-590f" primary="false"/>
+        <categoryLink name="Jakil" hidden="false" id="7555-0f7e-c0e4-155b" targetId="ba86-344a-2476-ca35" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Fire Designator" hidden="false" id="4247-59b5-e324-9324">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="a189-fa06-46d4-60e6">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="0d58-f95d-6848-3c34">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="115f-7a45-0691-86c0"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbf0-aa8b-da40-a817"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="AutoRifle" hidden="false" id="deeb-d340-1e90-84f4">
+              <profiles>
+                <profile name="AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6d1c-ae1b-7b09-54d5">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7245-2abd-c0c6-3dbe"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5037-2e36-0384-4d65"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8163-dc9a-c585-7b46"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0192-e154-f27e-573f"/>
+          </constraints>
+          <profiles>
+            <profile name="Fire Designator" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0622-32e2-5729-c688">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">+6/+6</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">9+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Jakil Mortar Team" hidden="false" id="53be-7c02-36e6-81f0">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="b626-67f7-a4c7-e5fc">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="9fde-2d3a-999f-6704">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="280a-45c0-7d2f-3c9e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43d1-10d6-9109-c932"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mortar Tube" hidden="false" id="bd86-87bb-1c80-a620">
+              <profiles>
+                <profile name="Mortar Tube" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a93b-5f50-d470-6ce1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast 1, Indirect Fire</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa50-c392-f7d9-f3b8"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d6f-a68a-998b-ca02"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="AutoRifle" hidden="false" id="02cc-a415-2217-a9eb">
+              <profiles>
+                <profile name="AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="78c9-2c7e-7b3c-d2f1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba29-798e-8576-5a38"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="432b-85ad-332f-abab"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Jakil Mortar Team" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d897-4d2f-1f72-a971">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">+6/+6</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">9+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="2c58-b084-c9a7-4f43"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="366a-8708-2b80-b2da"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Suppressive Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ad21-7e13-85d3-f249">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After this unit has resolved all of its attacks, if a Unit was Hit by a Mortar Tube attack then it suffers -2 to its Movement Characteristic.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fire Designator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="95c1-8ee3-3f39-6ad2">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whilst this Units Fire Designator is still on the battlefield, Mortar Tube weapons in this Unit can reroll failed Hit rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="75"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Jakil Ranger" hidden="false" id="4dab-af13-4f00-61fa">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Jakil Ranger" hidden="false" id="6fa1-54ee-1fc7-bcf2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="ba0a-0daa-100f-1455">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b6bf-4ac2-892c-dc4f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d878-4b16-9d0c-d41b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05b4-fb08-5cf7-6ad9"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Enhanced AutoRifle" hidden="false" id="1b28-158f-c32f-8e8e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b168-8bd1-1960-9645"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c508-6cae-e50f-99be"/>
+              </constraints>
+              <profiles>
+                <profile name="Enhanced AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b322-44cf-9018-d07e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms Rapid Fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Jakil Ranger" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="36d5-87a4-3f55-b8ea">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="9ada-b39a-78aa-dd8e"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="d022-40c2-a908-a3ec"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Infantry" hidden="false" id="c716-4050-4f0c-bff2" targetId="c9f9-68da-aaa8-0023" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Jakil Ranger Sargent" hidden="false" id="672d-1182-d212-fb02">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapons" hidden="false" id="1fce-d69f-d91a-c46c">
+              <profiles>
+                <profile name="Close Combat Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="4286-c451-773a-9492">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3255-b3f5-27e6-f40a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c4f-8f3a-4e95-4278"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Enhanced AutoRifle" hidden="false" id="3877-73cf-89d1-0a8b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="513a-b9a5-959f-9fd0"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c68f-da9a-3d89-a1ca"/>
+              </constraints>
+              <profiles>
+                <profile name="Enhanced AutoRifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="619d-a2af-2e56-92ad">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms Rapid Fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Jakil Ranger Sargent" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4ea3-aad9-cd83-fbd4">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">1</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df9b-f4fe-1b55-c018"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a70-813c-1d36-47f4"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Infantry" hidden="false" id="a8b4-8620-98f2-6db9" targetId="c9f9-68da-aaa8-0023" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Reactive Warfare" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="18f1-5e93-eecb-f0f8">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per Turn, this Unit may perform a Shoot action when an enemy unit declares a Move, Strafe, Advance or Assault action within 9&quot;.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="5d18-4b78-8140-7be8" targetId="c9f9-68da-aaa8-0023" primary="true"/>
+        <categoryLink name="Unit" hidden="false" id="73a2-5e70-c10f-2496" targetId="bfa3-7219-3cdb-f6f1" primary="false"/>
+        <categoryLink name="Humanity" hidden="false" id="cd8c-6ba6-1dc9-1032" targetId="ede8-9fd6-1b60-590f" primary="false"/>
+        <categoryLink name="Jakil" hidden="false" id="342d-d85b-87f8-3334" targetId="ba86-344a-2476-ca35" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="95"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Anti-Air" hidden="false" id="a7b3-4977-90af-d1d7">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Jakil Anti Air" hidden="false" id="0e83-2148-6471-bed1">
+          <profiles>
+            <profile name="Jakil Anti Air" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d953-6cdc-87a1-fe32">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">6</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/7+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">6+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6988-e92e-55f9-8e65"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b0d-78c1-fd77-db31"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Anti-Air Missile" hidden="false" id="eef4-7c0e-1a65-9e4a">
+          <profiles>
+            <profile name="Anti-Air Missile" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="77ac-6d6b-758c-f4e6">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">N/A</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Aircraft</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2624-1b3a-0fee-a783"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07b3-97b0-eb4f-f274"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured Bulk" hidden="false" id="0fe2-a103-4e60-a4bb">
+          <profiles>
+            <profile name="Armoured Bulk" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="e794-ceb2-aa3e-74f5">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="81ee-edba-9e95-bd2b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f26-dfa3-f60b-29fd"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Auxillary Light Machine Gun" hidden="false" id="35c8-0d8f-1c66-4b88">
+          <profiles>
+            <profile name="Auxillary Light Machine Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="bc3a-0048-5b02-4253">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7344-9147-f4fb-15c2"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94b7-a6ba-d55d-fe5a"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8843-adbf-b451-a9fe"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="332b-7264-e6a0-c6c7"/>
+      </constraints>
+      <profiles>
+        <profile name="Dedicated Anti-Air" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ecd9-101f-a79f-14fb">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can never target a non Aircraft unit with its Anti-Air Missile. 
+
+
+When this model makes a ranged attack against an Aircraft unit, reroll hit rolls of 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="100"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="b344-c2e2-65e7-4005" targetId="cd4f-0287-31b9-8659" primary="true"/>
+        <categoryLink name="Humanity" hidden="false" id="88e3-4bd8-2ca6-13bd" targetId="ede8-9fd6-1b60-590f" primary="false"/>
+        <categoryLink name="Jakil" hidden="false" id="6cc4-1fd1-83c9-f4dc" targetId="ba86-344a-2476-ca35" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Commander" hidden="false" id="9d9e-8c17-4b30-5efc">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Commanders Pistol" hidden="false" id="6d56-96b1-99eb-f9dc">
+          <profiles>
+            <profile name="Commanders Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9ccc-1d4a-f367-068b">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d674-88e3-46e3-4caa"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99f2-6ca2-223c-887b"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Officers Sword" hidden="false" id="4456-f526-e296-46d6">
+          <profiles>
+            <profile name="Officers Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="ec14-1da5-59f6-0775">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3c0-0563-919c-166d"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86f5-d915-8a53-e83c"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Local Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c883-b6bc-4a61-0080">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whilst this one or more Units with this ability are on the battlefield, add +1 to your Initiative Roll</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jaskerin Commander" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a49f-7706-a547-7b17">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+            <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+            <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+            <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+            <characteristic name="W" typeId="bef7-942a-1a23-59f8">6+</characteristic>
+            <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Forged Through War" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e07c-8d58-d16f-e8fa">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model&apos;s unit can Shoot as if it had made a Shoot action after it falls back from Close Combat Range.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8e28-c2cc-cd93-e834">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This Model can attach to the following Units:
+-Jakil Infantry
+-Jakil Rangers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Leader" hidden="false" id="b09d-fbf9-66e7-1a0c" targetId="101c-96b7-404e-0f8b" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="4828-6e2c-d0d9-7980" targetId="c9f9-68da-aaa8-0023" primary="false"/>
+        <categoryLink name="Unit" hidden="false" id="0599-f78c-daab-6c98" targetId="bfa3-7219-3cdb-f6f1" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="7c82-1b51-ea77-761b" targetId="0558-6d8b-f5d1-cca3" primary="true"/>
+        <categoryLink name="Humanity" hidden="false" id="a8e9-4dbc-c515-7ee5" targetId="ede8-9fd6-1b60-590f" primary="false"/>
+        <categoryLink name="Jakil" hidden="false" id="bf5c-0e5c-b92d-487d" targetId="ba86-344a-2476-ca35" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Leader" id="8990-bd48-0d3e-a911" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="General" hidden="false" id="0948-1e93-36bf-d6e8" type="selectionEntry" targetId="daf6-3b79-75b1-6b0b">
+          <categoryLinks>
+            <categoryLink name="General" hidden="false" id="ce56-691a-bbf4-7a29" targetId="58f5-a263-2ca2-8342" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="70"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jakil Lieutenant" hidden="false" id="9d47-1f3a-5182-6dc2">
+      <categoryLinks>
+        <categoryLink name="Leader" hidden="false" id="aa13-a527-eb71-3c71" targetId="101c-96b7-404e-0f8b" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="fec5-e7b4-915f-af70" targetId="c9f9-68da-aaa8-0023" primary="false"/>
+        <categoryLink name="Unit" hidden="false" id="111c-2ac8-47a6-3e19" targetId="bfa3-7219-3cdb-f6f1" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="a8b1-e29e-2ca0-423f" targetId="0558-6d8b-f5d1-cca3" primary="true"/>
+        <categoryLink name="Humanity" hidden="false" id="e265-fcab-5af2-229d" targetId="ede8-9fd6-1b60-590f" primary="false"/>
+        <categoryLink name="Jakil" hidden="false" id="54f1-c47d-2e5a-0a8c" targetId="ba86-344a-2476-ca35" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Jaskerin Lieutenant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c473-c977-f89c-db74">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+            <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+            <characteristic name="A" typeId="450-a17e-9d5e-29da">3</characteristic>
+            <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+            <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+            <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tactical Flexibility" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f05-6ca8-965b-af92">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per Turn, at the end of the Action Stage, this Unit can activate again to make a Move or Shoot action.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4f3b-f993-04a5-0042">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This Model can attach to the following Units:
+-Jakil Infantry
+-Jakil Elite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Officers Sword" hidden="false" id="3124-ddfd-e7a0-aff2">
+          <profiles>
+            <profile name="Officers Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8f09-bba6-3671-4022">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="MS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9de3-5b6d-402f-1cfe"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acc9-bf38-4a44-5194"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Jaskerin Pistol" hidden="false" id="662a-46f6-6dbb-110c">
+          <profiles>
+            <profile name="Jaskerin Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b052-767f-3839-5c15">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="335a-f47e-bc9e-6fdd"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17e1-8db0-46b4-56c4"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Leader" id="356e-7990-4cea-36be" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="General" hidden="false" id="0dcf-4d69-def5-f77c" type="selectionEntry" targetId="daf6-3b79-75b1-6b0b">
+          <categoryLinks>
+            <categoryLink name="General" hidden="false" id="809a-745f-d248-de24" targetId="58f5-a263-2ca2-8342" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="50"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

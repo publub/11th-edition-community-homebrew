@@ -1,0 +1,1788 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="a685-1dbb-b70a-dc48" name="Chunari Ascendancy" gameSystemId="sys-74a6-c7c2-cb22-1ca2" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Chunari Herald" hidden="false" id="409f-8332-ed39-adeb">
+      <categoryLinks>
+        <categoryLink targetId="101c-96b7-404e-0f8b" id="0794-3d32-7097-ab75" primary="false" name="Leader"/>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="1b20-f31e-6dbc-182c" primary="false" name="Infantry"/>
+        <categoryLink targetId="0558-6d8b-f5d1-cca3" id="48d4-2dce-6f85-a953" primary="true" name="Character"/>
+        <categoryLink targetId="58f5-a263-2ca2-8342" id="9b77-d923-ba86-fd50" primary="false" name="General"/>
+        <categoryLink targetId="22d4-7f1c-8932-5a92" id="5e48-f004-15b1-9944" primary="false" name="Chunari"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Star Sense" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cda1-ab60-5673-ee29">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this Unit have the Fights First ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Herald of the Ascendant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="95e2-f607-7f26-9d22">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHUNARI units within 12&quot; of this model can reroll hit rolls of 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6267-7e3e-3eab-167c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This Model can attach to the following Units:
+-Chunari Wardens
+-Chunari Lancers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="General" hidden="false" id="14ef-b718-9205-d1a8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba6c-e7cc-9231-2f1a"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fc80-def9-05e9-1c78" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="843b-5d16-c4f8-4eb9" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Chunari Herald" hidden="false" id="c5b2-3652-de3f-e41d">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Star Song" hidden="false" id="9283-d967-e539-788a">
+              <profiles>
+                <profile name="Star Song" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3ae5-aa38-717b-ed91">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin Linked, Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0161-076c-2a5a-60cf"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25e4-9e95-a4fd-4ed2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Star Song" hidden="false" id="b241-add7-1bee-c285">
+              <profiles>
+                <profile name="Star Song" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="044a-88cf-5c54-270d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a2e-e707-7eaf-40bb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb9c-f3b1-c2ea-a058"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Chunari Herald" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b00e-cb5e-c24e-4c14">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/4+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">6+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Shielded Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e11-3e4c-8532-93dc">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 6+ Shielded Save</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df1a-32eb-b41a-7f0f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8698-0763-62cc-564e"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Leader" id="526a-9f73-3787-ac94" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="130"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="General" hidden="false" id="3c51-c421-362c-ff1c">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b752-2413-c729-63a4"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9f2b-393c-b6e6-a21b" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="a1f6-8bc7-8ad0-4ef8" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Celestial" hidden="false" id="5883-b060-393c-61a7">
+      <categoryLinks>
+        <categoryLink targetId="101c-96b7-404e-0f8b" id="d965-dbd7-8b75-e20b" primary="false" name="Leader"/>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="1a29-e391-46c8-87cc" primary="false" name="Infantry"/>
+        <categoryLink targetId="0558-6d8b-f5d1-cca3" id="edbf-7170-b5de-3525" primary="true" name="Character"/>
+        <categoryLink targetId="22d4-7f1c-8932-5a92" id="7896-8a32-cc06-8664" primary="false" name="Chunari"/>
+        <categoryLink targetId="58f5-a263-2ca2-8342" id="7d9a-6659-933e-4552" primary="false" name="General"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Celestial" hidden="false" id="949c-081e-d414-a0ce">
+          <profiles>
+            <profile name="Chunari Celestial" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0a1f-9686-4a4e-bc35">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chunari Pistol" hidden="false" id="29a5-5852-b9c4-200a">
+              <profiles>
+                <profile name="Chunari Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e9da-c81d-ac38-0874">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fe0-181f-1584-466e"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0fae-afef-4be1-c381"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Celestial Banner" hidden="false" id="a27f-dbb9-cde1-ddc9">
+              <profiles>
+                <profile name="Celestial Banner" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1b07-f622-4dfe-d04b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e934-0352-693b-c3a7"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bf9-2fd8-8459-e99e"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1aa-b886-70ca-f8ca"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06b7-c904-fb71-d444"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="General" hidden="false" id="e9d5-5174-3654-203e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b315-9d0e-ff86-600e"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c465-b6c0-69a2-1955" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="bea4-e52d-706b-0fe6" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="For the Ascendancy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="79bf-5068-18f4-f823">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHUNARI Units within 12&quot; add 1 to their Control Characteristic.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gaze upon Heavens " typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8bf5-0acd-47fe-2468">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whilst this Model is within 3&quot; of another friendly CHUNARI INFRANTRY Unit, this Model has Lone Operative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="110"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Warglaives " hidden="false" id="7f74-99b4-9e63-3722">
+      <categoryLinks>
+        <categoryLink targetId="cd4f-0287-31b9-8659" id="bc35-3fc1-5e09-b692" primary="true" name="Vehicle"/>
+        <categoryLink targetId="22d4-7f1c-8932-5a92" id="83a6-4125-5dd9-99d9" primary="false" name="Chunari"/>
+        <categoryLink targetId="6dda-e157-334d-e93a" id="e0fd-b9f2-de1a-cb36" primary="false" name="Walker"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Warglaives" hidden="false" id="ba0b-e55d-8a4c-b9ce">
+          <profiles>
+            <profile name="Chunari Warglaives" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e24b-4a43-9829-c9cd">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">7</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/3+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Star Glaive" hidden="false" id="e07b-8d4f-5823-5bd1">
+              <profiles>
+                <profile name="Star Glaive" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6108-4b0d-6e34-e503">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8fb5-0499-1f04-3b35"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b323-e268-cc25-f1e0"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin Micro Repeaters" hidden="false" id="0ce4-b275-c0bd-85e9">
+              <profiles>
+                <profile name="Twin Micro Repeaters" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5eaf-3636-99e0-9041">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin linked, Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25c7-0c8c-e98b-8f8e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c3d-f550-9504-92dc"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="79b7-c75c-644e-c3e1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c754-a741-eed1-ae5f"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Chunari Warglaives " typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5567-c47d-330f-0032">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This Model has Fights First.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="180"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Lancers" hidden="false" id="1515-38bd-ce31-0bf3">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Lancers" hidden="false" id="c0fe-b3a9-595c-246a">
+          <profiles>
+            <profile name="Chunari Lancers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ac6d-eb58-694e-113f">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="552b-2b4d-9753-1002"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="6a39-7e64-d75a-c886"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Star Lance" hidden="false" id="fca0-0af3-5322-3633">
+              <profiles>
+                <profile name="Star Lance" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fb7b-b591-0a1e-0fa8">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57ee-fdea-20de-5d03"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1736-bb43-1983-c794"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Star Lance" hidden="false" id="25bf-bcb5-7b4f-0368">
+              <profiles>
+                <profile name="Star Lance" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="9fff-3f8c-8720-7f6c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fae-1106-a481-1e70"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ad2b-3ca1-b085-8c1e"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="de89-1629-4a28-f5b3" primary="true" name="Infantry"/>
+        <categoryLink targetId="22d4-7f1c-8932-5a92" id="38e6-ce0a-7f77-3e11" primary="false" name="Chunari"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="100"/>
+      </costs>
+      <profiles>
+        <profile name="A world claimed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="14b1-ec1a-d62c-04c1">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If you control an objective marker at the end of Action stage and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Wardens" hidden="false" id="d4ed-8d09-d97d-fe77">
+      <categoryLinks>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="72b1-01fd-33d4-1dbe" primary="true" name="Infantry"/>
+        <categoryLink targetId="22d4-7f1c-8932-5a92" id="3a0e-15fc-3012-4941" primary="false" name="Chunari"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Wardens" hidden="false" id="cbed-c540-bfd2-34e2">
+          <profiles>
+            <profile name="Chunari Wardens" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9da5-43f3-a33e-521f">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/4+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Star Lance" hidden="false" id="df50-386a-d05e-5165">
+              <profiles>
+                <profile name="Star Lance" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cce2-1e07-6e32-4db9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abc1-b6f7-9637-c004"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fea8-7012-fc60-bc57"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Star Lance" hidden="false" id="54ef-44f8-6a5b-375d">
+              <profiles>
+                <profile name="Star Lance" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="73fa-667f-d5fe-0d09">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b68-3d85-48bd-4cb4"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="19f8-a462-a2c8-d8a3"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="4f56-799e-c30d-6d8c"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3bbf-8ee1-e2e0-08e3"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Eclipsing light" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="13e8-77db-2735-b4a9">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a CHUNARI CHARACTER is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Shielded Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6db5-c991-e06c-471f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this Unit have a 6+ Shielded Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="110"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Scorpio Heavy Tank" hidden="false" id="c82c-c80e-bf7a-0a01">
+      <categoryLinks>
+        <categoryLink targetId="cd4f-0287-31b9-8659" id="4465-c5ed-9607-3c5d" primary="true" name="Vehicle"/>
+        <categoryLink targetId="22d4-7f1c-8932-5a92" id="9c4a-e422-9a6d-6923" primary="false" name="Chunari"/>
+        <categoryLink targetId="bfa3-7219-3cdb-f6f1" id="3629-85d6-aea7-4399" primary="false" name="Unit"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Scorpio Heavy Tank" hidden="false" id="46b2-7581-1082-649a">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gravity Lifter" hidden="false" id="2b39-b43e-ce30-9629">
+              <profiles>
+                <profile name="Gravity Lifter" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="78d1-e4b6-2052-54f6">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3ce4-8b38-8f62-da50"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f29c-4e93-02b6-ef54"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Auxilary Defence Weapons" hidden="false" id="d582-06f5-3aed-c69c">
+              <profiles>
+                <profile name="Auxilary Defence Weapons" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="773a-756a-6e42-401a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3fe4-6bc5-8d94-b696"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a37-9ccc-b6e6-0caf"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stellar Cannon" hidden="false" id="f927-af2d-001a-a90d">
+              <profiles>
+                <profile name="Stellar Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="17eb-488d-f79b-0817">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b86f-e55e-20e2-bc86"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7e8-7ba0-a0f8-0ac8"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Chunari Scorpio Heavy Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="77d4-5ea9-9e94-7dcf">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">10</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">3+/5+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b5b-297d-84f6-9c72"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82f0-5dba-cdcd-fc7c"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Technological Superiority" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="318b-f148-6cbd-1052">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever this model suffers a wound from a Small Arms weapon, on a 5+ this model can ignore that wound.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="480"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Heavy Bomber" hidden="false" id="c89c-8e1a-b25d-7085">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Heavy Bomber" hidden="false" id="a7df-186e-4d1f-9a9f">
+          <profiles>
+            <profile name="Chunari Heavy Bomber" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d321-f3d8-261f-75e9">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">N/A</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">8</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/NA</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">N/A</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Solar Laser Cannon" hidden="false" id="c58f-bb01-a10b-9a69">
+              <profiles>
+                <profile name="Twin Solar Laser Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2e3a-bc2b-c7cd-198d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">N/A</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="363c-f147-6a42-1a9c"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec52-9562-7ae6-7c84"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Comet Gattaling Turrets" hidden="false" id="0e7a-5e62-723c-d08c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10ce-105c-d874-8205"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="89ed-23dc-9353-c4a1"/>
+              </constraints>
+              <profiles>
+                <profile name="Comet Gattaling Turrets" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7bcc-f03a-33ec-442e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">N/A</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nova Bombs" hidden="false" id="c0bf-fba7-2fd5-081b">
+              <profiles>
+                <profile name="Nova Bombs" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="85ae-4b3e-d53e-7148">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">N/A</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">One Shot, Blast 3, Cleave, Ignore Cover</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="658b-badb-4244-bb30"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c458-e50f-f02e-7c2f"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3778-a84d-1661-8024"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2dbb-4c53-6db6-7e8a"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="cd4f-0287-31b9-8659" id="9576-95a4-e432-5dfe" primary="true" name="Vehicle"/>
+        <categoryLink targetId="22d4-7f1c-8932-5a92" id="6bd3-c8f4-7fb8-347d" primary="false" name="Chunari"/>
+        <categoryLink targetId="a55e-550d-75e1-9a3c" id="dda0-2961-3101-94a6" primary="false" name="Aircraft"/>
+        <categoryLink targetId="73e7-9d7e-1bfd-3e2f" id="ef86-370e-9141-6130" primary="false" name="Off-Board Asset"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Built for purpose" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0cbd-0836-de7c-a930">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can reroll 1 hit roll and 1 wound roll when resolving its Solar Laser Cannon.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Strike from the skies" id="9494-2bce-cac8-5077" hidden="false" type="profile" targetId="9301-524d-b4d2-ff3f"/>
+        <infoLink name="Off-Board Asset" id="7750-eb27-4848-3b7d" hidden="false" type="rule" targetId="a02d-f176-744c-f03e"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="250"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Shortblades" hidden="false" id="4ab3-ddab-8e39-ce9f">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Shortblades" hidden="false" id="dffa-f875-d12b-e4d5">
+          <profiles>
+            <profile name="Chunari Shortblades" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2244-f886-2de8-82cf">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/3+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Relentless Pursuit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8f8d-5dff-5b48-02ca">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When ever this Unit makes an Assault Action, add 2 to its movement characteristic. This unit can ignore any penalties to its movement characteristic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="b8b6-a289-7351-8ed5"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="3c4a-7f78-6cc7-321a"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Shortblades" hidden="false" id="cacc-dd1b-d51c-b555">
+              <profiles>
+                <profile name="Short Blades" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="cfc9-fcc9-3da7-0c12">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="02f5-6feb-bab0-1c8c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="418b-73af-feb9-8497"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Needle Gauntlet" hidden="false" id="8753-2328-dc7e-cd24">
+              <profiles>
+                <profile name="Needle Gauntlet" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0448-2ea0-7971-877e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5123-bf90-1941-4e9a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7bb-a25d-6397-f5df"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Stealth" id="ea69-9155-0393-26d0" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
+            <infoLink name="Infiltrators" id="8054-d76b-edee-032a" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="120"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chunari Star Gazer" hidden="false" id="5d6b-4cf4-e01e-b783">
+      <categoryLinks>
+        <categoryLink targetId="0558-6d8b-f5d1-cca3" id="8266-bb9c-746d-bdb3" primary="true" name="Character"/>
+        <categoryLink targetId="58f5-a263-2ca2-8342" id="3f5e-7376-a784-e451" primary="false" name="General"/>
+        <categoryLink targetId="22d4-7f1c-8932-5a92" id="8e78-4936-ea64-b70f" primary="false" name="Chunari"/>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="c175-3ea0-2612-0ad5" primary="false" name="Infantry"/>
+        <categoryLink targetId="20eb-d8a2-d24f-0b0f" id="d64a-ce69-3819-b104" primary="false" name="Accultist"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Star Gazer" hidden="false" id="03cc-dbc9-f03f-f1a5">
+          <profiles>
+            <profile name="Star Gazer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3ff0-bcaa-9fbf-b52f">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">5+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="67cc-d816-5e1e-18af"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1e0-1285-0d96-cf95"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Psionic Ranged" hidden="false" id="2419-de68-4986-cc62">
+              <profiles>
+                <profile name="Psionic Ranged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b04b-fa85-240b-43be">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Psionic</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c877-de01-5559-c75c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f0d-b2f7-b1c3-ca1e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psionic Melee" hidden="false" id="04d1-e3b6-498e-abd2">
+              <profiles>
+                <profile name="Psionic Melee" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b69c-e01d-dede-d553">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Psionic</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="576d-4958-7306-8301"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc66-80db-b39f-8885"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Psionic" id="2e2a-e9b6-b7d6-2c42" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
+        <infoLink name="Lone Operative" id="dcf3-66a7-f496-57c7" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Chunari Star Gazer" typeId="a0c8-5ebd-79b6-f9ca" typeName="Accultist" hidden="false" id="52ef-9fe1-af81-06d7">
+          <characteristics>
+            <characteristic name="Value" typeId="ddfe-5f5e-9eb3-d23e">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ether Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d480-a28b-5ec5-1b05">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a 6+ Shielded Save</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="90"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Sniper" hidden="false" id="275c-9e4e-22fd-a5e3">
+      <categoryLinks>
+        <categoryLink targetId="0558-6d8b-f5d1-cca3" id="d2db-ed00-0dbf-e362" primary="true" name="Character"/>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="b4eb-eb6c-a0f1-8a4c" primary="false" name="Infantry"/>
+        <categoryLink targetId="22d4-7f1c-8932-5a92" id="fc8b-8988-ed6a-10a3" primary="false" name="Chunari"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Sniper" hidden="false" id="43a5-0ec2-3c12-3168">
+          <profiles>
+            <profile name="Chunari Sniper" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="cf4f-14cc-a666-f6ce">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">4</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Eclipsed by night" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0ae3-f85a-8292-ecee">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After all players have deployed their units, this unit may be removed from the battlefield and set up anywhere on the battlefield that is more than 9&quot; horizontally away from all enemy models.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="04ab-fae1-5089-5cb8"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0092-2cd3-1db3-59b0"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Star Rifle" hidden="false" id="a5d5-c752-9917-74ce">
+              <profiles>
+                <profile name="Star Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9821-503d-c6a5-59b5">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Heavy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5622-7242-d0ab-d81f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c0b-45fa-9817-70f5"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="f731-a965-8167-c04d">
+              <profiles>
+                <profile name="Close Combat Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="439f-81bc-fc46-b1a9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb75-8315-c134-19a0"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c71f-8bd4-c9d6-1a6d"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Infiltrators" id="5e97-9ca3-0de1-4b32" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
+        <infoLink name="Stealth" id="3c87-7427-7c3c-23d9" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="90"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Star Sense" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f222-96fc-9c52-a6cb">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this Unit have the Fights First ability.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <selectionEntries>
+    <selectionEntry type="unit" import="true" name="Chunari Celestial" hidden="false" id="9892-b89e-6e92-0dbb">
+      <categoryLinks>
+        <categoryLink name="Leader" hidden="false" id="79c4-be5c-a6f0-8b43" targetId="101c-96b7-404e-0f8b" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="92c6-23b8-ef8b-5d94" targetId="c9f9-68da-aaa8-0023" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="23ae-df8c-5ff5-8732" targetId="0558-6d8b-f5d1-cca3" primary="true"/>
+        <categoryLink name="Chunari" hidden="false" id="465b-a0cb-fff1-b87c" targetId="22d4-7f1c-8932-5a92" primary="false"/>
+        <categoryLink name="General" hidden="false" id="6bdf-9a06-6201-1ce9" targetId="58f5-a263-2ca2-8342" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Celestial" hidden="false" id="461d-46b2-2494-982f">
+          <profiles>
+            <profile name="Chunari Celestial" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a9bf-627a-b96f-9455">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chunari Pistol" hidden="false" id="f559-f05f-6428-6af1">
+              <profiles>
+                <profile name="Chunari Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f588-3e93-60da-e181">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30ac-b0c3-68af-a35f"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="09cc-0f3e-1661-2fb7"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Celestial Banner" hidden="false" id="11be-8721-4cdf-cd74">
+              <profiles>
+                <profile name="Celestial Banner" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2732-8253-a66f-090d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5ad-aa72-2f37-7026"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="40e1-d065-efda-1328"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="edc3-40fc-a642-4c6b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94dd-c4da-78d0-bc27"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="General" hidden="false" id="e484-a2b3-a039-0a58">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38db-db5b-fa7f-7b0a"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="62ba-4078-0bb3-88d0" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="1bb3-86ec-54bf-27ae" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="For the Ascendancy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1a14-c855-7836-1eaa">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHUNARI Units within 12&quot; add 1 to their Control Characteristic.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gaze upon Heavens " typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd17-b85f-1955-8fd9">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whilst this Model is within 3&quot; of another friendly CHUNARI INFRANTRY Unit, this Model has Lone Operative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="110"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Heavy Bomber" hidden="false" id="7d55-e91f-2038-7ba4">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Heavy Bomber" hidden="false" id="9fc6-6df7-e05c-b5a3">
+          <profiles>
+            <profile name="Chunari Heavy Bomber" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2c2a-d9a6-c27e-fe09">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">N/A</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">8</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/NA</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">N/A</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Solar Laser Cannon" hidden="false" id="f1c3-0390-1d40-d934">
+              <profiles>
+                <profile name="Twin Solar Laser Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c49a-7966-c854-14ca">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">N/A</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd80-84ad-b763-8977"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ddb4-b331-240b-4a4c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Comet Gattaling Turrets" hidden="false" id="b040-ccf6-831f-db0d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba5d-85bc-0904-45db"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="23c3-804d-689c-d272"/>
+              </constraints>
+              <profiles>
+                <profile name="Comet Gattaling Turrets" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0ea6-ec58-08b1-074f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">N/A</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nova Bombs" hidden="false" id="ef84-3462-6cff-1cf4">
+              <profiles>
+                <profile name="Nova Bombs" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="99ab-4874-3313-d33f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">N/A</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">One Shot, Blast 3, Cleave, Ignore Cover</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3afc-f22e-e40a-3d69"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="461f-4434-3c6b-4064"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00f0-b160-2f99-ed7e"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60dc-d12d-d970-a9d3"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="acb6-4541-c1da-27c7" targetId="cd4f-0287-31b9-8659" primary="true"/>
+        <categoryLink name="Chunari" hidden="false" id="c718-4997-c807-7b67" targetId="22d4-7f1c-8932-5a92" primary="false"/>
+        <categoryLink name="Aircraft" hidden="false" id="6817-40b2-34f6-bac6" targetId="a55e-550d-75e1-9a3c" primary="false"/>
+        <categoryLink name="Off-Board Asset" hidden="false" id="8dd4-c47d-4e1d-cba1" targetId="73e7-9d7e-1bfd-3e2f" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Built for purpose" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="39eb-9e8e-6c8a-c02e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can reroll 1 hit roll and 1 wound roll when resolving its Solar Laser Cannon.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Strike from the skies" id="6ecd-ce97-ed12-ca5c" hidden="false" type="profile" targetId="9301-524d-b4d2-ff3f"/>
+        <infoLink name="Off-Board Asset" id="72a4-4abb-521b-7f1d" hidden="false" type="rule" targetId="a02d-f176-744c-f03e"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="250"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Herald" hidden="false" id="e244-26b3-9838-eed4">
+      <categoryLinks>
+        <categoryLink name="Leader" hidden="false" id="1652-07ca-5d06-ab8c" targetId="101c-96b7-404e-0f8b" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="7e53-5833-5b37-990f" targetId="c9f9-68da-aaa8-0023" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="02bb-806a-b27a-a089" targetId="0558-6d8b-f5d1-cca3" primary="true"/>
+        <categoryLink name="General" hidden="false" id="5e31-777d-f322-9984" targetId="58f5-a263-2ca2-8342" primary="false"/>
+        <categoryLink name="Chunari" hidden="false" id="5224-343f-da8c-703c" targetId="22d4-7f1c-8932-5a92" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Star Sense" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="93a7-2802-0a46-cdf8">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this Unit have the Fights First ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Herald of the Ascendant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b86b-149a-9884-d5ac">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHUNARI units within 12&quot; of this model can reroll hit rolls of 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e28a-41b6-7fed-ee5a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This Model can attach to the following Units:
+-Chunari Wardens
+-Chunari Lancers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="General" hidden="false" id="aa42-1b05-ebf7-5719">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ef8-ece8-8bd6-35c2"/>
+            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="7c08-337f-90b9-4c94" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Chunari Herald" hidden="false" id="590a-8c64-75af-3991">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Star Song" hidden="false" id="2095-c40c-0911-a992">
+              <profiles>
+                <profile name="Star Song" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3f81-7c99-dd67-cece">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin Linked, Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="02ab-be87-2ff7-3674"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53be-98ab-5d39-9e9e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Star Song" hidden="false" id="9390-4e47-c73c-964b">
+              <profiles>
+                <profile name="Star Song" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5c60-bcdc-0c0d-8d9d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e9e3-8e3f-64c0-352b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b904-f8ff-922a-44c9"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Chunari Herald" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f020-bafa-0c86-ebf0">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/4+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">6+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Shielded Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="22f4-ca3b-75b1-6750">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 6+ Shielded Save</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5dc3-980a-3625-fa13"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e813-693e-5324-95b6"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Leader" id="083b-3445-1559-a1c7" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="130"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Lancers" hidden="false" id="3d32-f09b-5ee0-683b">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Lancers" hidden="false" id="ef2f-38bf-fd1d-84fc">
+          <profiles>
+            <profile name="Chunari Lancers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="26a1-24ce-7841-154b">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">5+/5+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="adb6-bc78-fd24-0b48"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="5de6-53e8-7849-5947"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Star Lance" hidden="false" id="4b01-fb65-9e51-1e82">
+              <profiles>
+                <profile name="Star Lance" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1057-084a-27aa-4622">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="589f-862b-9352-3339"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fbb1-43e4-737e-a168"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Star Lance" hidden="false" id="c847-6bbe-d859-7ec7">
+              <profiles>
+                <profile name="Star Lance" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7ee0-cd99-6c74-692d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1eed-85b9-2fc9-5467"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49b3-c4d0-4261-272a"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="947e-295e-86c3-43f0" targetId="c9f9-68da-aaa8-0023" primary="true"/>
+        <categoryLink name="Chunari" hidden="false" id="5eeb-0fcc-c447-5f68" targetId="22d4-7f1c-8932-5a92" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="100"/>
+      </costs>
+      <profiles>
+        <profile name="A world claimed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9bf2-865c-be53-94ba">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If you control an objective marker at the end of Action stage and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Scorpio Heavy Tank" hidden="false" id="7a6b-f386-fe4b-575b">
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="b6eb-d75c-2c07-5a54" targetId="cd4f-0287-31b9-8659" primary="true"/>
+        <categoryLink name="Chunari" hidden="false" id="1ad7-6a4e-d75d-646f" targetId="22d4-7f1c-8932-5a92" primary="false"/>
+        <categoryLink name="Unit" hidden="false" id="644e-6e5f-4dd1-e5bb" targetId="bfa3-7219-3cdb-f6f1" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Scorpio Heavy Tank" hidden="false" id="ca4a-c9ea-a78c-7fce">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gravity Lifter" hidden="false" id="9ed1-a73b-f0f2-db05">
+              <profiles>
+                <profile name="Gravity Lifter" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7c2b-5df3-0c8e-c092">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7007-4a73-dc63-f190"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5a9-9a73-2f00-82be"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Auxilary Defence Weapons" hidden="false" id="bc29-42ec-d339-2472">
+              <profiles>
+                <profile name="Auxilary Defence Weapons" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="aa9b-fabe-b3ba-ae8f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d49b-9137-fbd8-9dbe"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94ae-57aa-86f8-a6cc"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stellar Cannon" hidden="false" id="014b-2cc6-6410-72ac">
+              <profiles>
+                <profile name="Stellar Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6db5-b461-f38c-8767">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6081-7a84-4f27-3b57"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="645d-57ff-fccd-5a34"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Chunari Scorpio Heavy Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="63b1-6ea7-47a0-c126">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">10</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">3+/5+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be5b-8ba9-f7d6-ce8f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c53e-ad12-5e26-94a3"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Technological Superiority" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="306f-b460-3d15-1d42">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever this model suffers a wound from a Small Arms weapon, on a 5+ this model can ignore that wound.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="480"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Shortblades" hidden="false" id="d552-c00f-b3a6-c869">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Shortblades" hidden="false" id="f69e-f21e-9ed8-fe09">
+          <profiles>
+            <profile name="Chunari Shortblades" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="cc81-21ef-03da-45e6">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/3+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Relentless Pursuit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5ccb-6c86-3ed0-b31e">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When ever this Unit makes an Assault Action, add 2 to its movement characteristic. This unit can ignore any penalties to its movement characteristic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="67d3-6348-a251-0493"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="1641-126d-74c1-5e00"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Shortblades" hidden="false" id="c596-9c4a-d9a8-95c3">
+              <profiles>
+                <profile name="Short Blades" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2b60-38d4-3b82-e9a9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d936-97c8-9fd6-9e20"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fcd-d3e3-e458-1893"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Needle Gauntlet" hidden="false" id="3a36-86ae-06bc-5d94">
+              <profiles>
+                <profile name="Needle Gauntlet" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d300-22d2-ceb2-18d4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="926a-d970-f68a-b33f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a815-0681-1874-cdbd"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Stealth" id="14a3-01d4-501b-063d" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
+            <infoLink name="Infiltrators" id="5d32-2edf-4056-a4c3" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="120"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="c9f9-68da-aaa8-0023" id="88e3-2a85-1a65-f4c1" primary="true" name="Infantry"/>
+        <categoryLink targetId="58f5-a263-2ca2-8342" id="afe8-14e8-e6df-6ac3" primary="false" name="General"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Sniper" hidden="false" id="8a54-e246-d36b-dae8">
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="1bab-e030-edca-a8d1" targetId="0558-6d8b-f5d1-cca3" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="74b7-c47a-c89a-b16d" targetId="c9f9-68da-aaa8-0023" primary="false"/>
+        <categoryLink name="Chunari" hidden="false" id="e4e3-d735-abef-191c" targetId="22d4-7f1c-8932-5a92" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Sniper" hidden="false" id="5124-e17f-4d57-f835">
+          <profiles>
+            <profile name="Chunari Sniper" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f4d9-9f8d-3f50-fb88">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">4</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Eclipsed by night" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a62-d60a-6454-46a5">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After all players have deployed their units, this unit may be removed from the battlefield and set up anywhere on the battlefield that is more than 9&quot; horizontally away from all enemy models.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e9c0-8e12-8644-4be7"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1de-afc7-ee62-6902"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Star Rifle" hidden="false" id="24ad-e4e7-1444-b1d3">
+              <profiles>
+                <profile name="Star Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="79d1-b56f-0429-44cb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Heavy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="251c-6eb9-105a-8959"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="601d-478c-c666-bc32"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="7955-0ca0-2f19-eef9">
+              <profiles>
+                <profile name="Close Combat Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="349c-1c2c-0f64-cb9f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="254d-aec8-6165-f062"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e94-b32a-1d9e-860b"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Infiltrators" id="55e7-a8ba-84bd-e513" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
+        <infoLink name="Stealth" id="9679-e6b0-1b93-923b" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="90"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chunari Star Gazer" hidden="false" id="75ad-2231-6093-b348">
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="b697-57ef-5b96-fd48" targetId="0558-6d8b-f5d1-cca3" primary="true"/>
+        <categoryLink name="General" hidden="false" id="1c7b-e0fc-b981-b05d" targetId="58f5-a263-2ca2-8342" primary="false"/>
+        <categoryLink name="Chunari" hidden="false" id="feb4-acd4-6e9f-f1ba" targetId="22d4-7f1c-8932-5a92" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="7886-4965-b13d-3bb1" targetId="c9f9-68da-aaa8-0023" primary="false"/>
+        <categoryLink name="Accultist" hidden="false" id="9a44-bca0-56ca-f91f" targetId="20eb-d8a2-d24f-0b0f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Star Gazer" hidden="false" id="ac82-2462-4e4d-6ae4">
+          <profiles>
+            <profile name="Star Gazer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7c8b-66dd-d233-f8fa">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/6+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">5+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="39f0-7b63-12de-71a8"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86bd-f1bd-b0de-85b9"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Psionic Ranged" hidden="false" id="80ac-0d64-1e34-03f5">
+              <profiles>
+                <profile name="Psionic Ranged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="39df-6e5e-de63-82cf">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">6+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Psionic</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b9fa-3439-07ff-9bfd"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efe4-6861-82cd-0ee3"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psionic Melee" hidden="false" id="9124-5253-27e2-3f82">
+              <profiles>
+                <profile name="Psionic Melee" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="cf50-efec-514b-d166">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">6+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Psionic</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="204c-655a-f714-68b1"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93d5-cc22-3f0b-ae43"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Psionic" id="2890-f51f-d464-6d8e" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
+        <infoLink name="Lone Operative" id="c400-552a-09e9-93e3" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Chunari Star Gazer" typeId="a0c8-5ebd-79b6-f9ca" typeName="Accultist" hidden="false" id="05b7-2560-f0c9-c095">
+          <characteristics>
+            <characteristic name="Value" typeId="ddfe-5f5e-9eb3-d23e">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ether Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d9f1-93e7-aefd-f415">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a 6+ Shielded Save</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="90"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Wardens" hidden="false" id="e2ff-7ef2-5ccb-241b">
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="f792-af10-aae7-876a" targetId="c9f9-68da-aaa8-0023" primary="true"/>
+        <categoryLink name="Chunari" hidden="false" id="59ba-2dd7-44f7-ab48" targetId="22d4-7f1c-8932-5a92" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Wardens" hidden="false" id="7ac9-a531-7443-2151">
+          <profiles>
+            <profile name="Chunari Wardens" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="111a-abc6-5b75-b13d">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">5</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">4+/4+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">7+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Star Lance" hidden="false" id="2225-7ed8-7c17-18b0">
+              <profiles>
+                <profile name="Star Lance" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f08b-5aea-f812-5f88">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8202-047e-4b62-8056"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8d33-6104-4d74-85c0"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Star Lance" hidden="false" id="d0cd-7a3e-5c4a-a90c">
+              <profiles>
+                <profile name="Star Lance" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b3bc-27ec-af90-8fe9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f58-775a-56ad-edd1"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a0bc-f0b2-fde1-c912"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="652b-8efa-2e6b-4aea"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="aba1-8b2a-f74f-af58"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Eclipsing light" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fba9-611e-5966-7a81">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a CHUNARI CHARACTER is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Shielded Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f4f5-756a-1412-9f81">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this Unit have a 6+ Shielded Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="110"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chunari Warglaives " hidden="false" id="1684-d214-80ae-1f10">
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="a576-db6c-5276-5eb0" targetId="cd4f-0287-31b9-8659" primary="true"/>
+        <categoryLink name="Chunari" hidden="false" id="ea31-6664-981e-84b8" targetId="22d4-7f1c-8932-5a92" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="28bb-c5a2-18e6-a373" targetId="6dda-e157-334d-e93a" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chunari Warglaives" hidden="false" id="01aa-1100-f22c-2c63">
+          <profiles>
+            <profile name="Chunari Warglaives" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e4ed-ea59-cc57-d0e4">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8</characteristic>
+                <characteristic name="H" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+                <characteristic name="A" typeId="450-a17e-9d5e-29da">7</characteristic>
+                <characteristic name="RS/MS" typeId="58d2-b879-49c7-43bc">6+/3+</characteristic>
+                <characteristic name="W" typeId="bef7-942a-1a23-59f8">8+</characteristic>
+                <characteristic name="C" typeId="ce19-d3eb-6d64-97de">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Star Glaive" hidden="false" id="1049-76b1-9da1-bf74">
+              <profiles>
+                <profile name="Star Glaive" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="87f4-0dda-80cb-8817">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
+                    <characteristic name="MS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+                    <characteristic name="P" typeId="41a0-1301-112a-e2f2">2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b20-eb32-699f-bd6e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8092-3215-0f4d-34bb"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin Micro Repeaters" hidden="false" id="a5fa-8aa1-f181-9a60">
+              <profiles>
+                <profile name="Twin Micro Repeaters" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b6e8-0fde-d9e0-b330">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="RS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="P" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin linked, Small Arms</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea99-154d-8dbd-7bc6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9b0-113c-b62b-23a1"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4365-23ce-dbb1-8c0c"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d409-de5a-bcd1-51d7"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Chunari Warglaives " typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4603-07da-1b7a-eb61">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This Model has Fights First.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="10a6-c868-db09-c245" value="180"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Detachment" id="2776-87ac-8ade-e9c5" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Empire Ascendant" hidden="false" id="2125-4a1f-5576-b288">
+          <profiles>
+            <profile name="Guided by Stars" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a90-f5fe-11d4-c8a4">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, select one Chunari Unit on the battlefield that has not Activated. That unit can reroll wound rolls of 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50ac-461e-4031-1ec2"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2202-88af-0adb-ccce"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="dd20-ec51-da27-9cf6" targetId="c708-30bf-1ea7-3e08" primary="true"/>
+      </categoryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Battle Size" hidden="false" id="7222-1703-430d-e4bf" type="selectionEntry" targetId="564e-fbc6-5266-3ea4"/>
+    <entryLink import="true" name="Detachment" hidden="false" id="0d61-47d3-3a6f-0f07" type="selectionEntryGroup" targetId="2776-87ac-8ade-e9c5"/>
+  </entryLinks>
+</catalogue>
